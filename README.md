@@ -186,6 +186,39 @@ Analysis of the 2023 campaign data revealed that:
 
 The repository is organized to reflect the end-to-end analytics workflow, from raw data to database design and business insights:
 
+```text
+marketflash-marketing-analytics/
+│
+├── dashboard/
+│   └── dashboard_overview.png
+│
+├── data_raw/
+│   └── marketflash_marketing_data_2023.xlsx
+│
+├── database/
+│   ├── beekeeper_setup/
+│   │   └── database_setup.png
+│   │
+│   ├── er_diagram/
+│   │   └── er_diagram.png
+│   │
+│   ├── queries/
+│   │   ├── avg_cost_per_click.sql
+│   │   ├── avg_cost_per_conversion.sql
+│   │   └── campaign_client_check.sql
+│   │
+│   ├── sample_data/
+│   │   └── insert_sample_data.sql
+│   │
+│   └── schema/
+│       └── create_tables.sql
+│
+├── slides/
+│   └── marketflash_presentation.pdf
+│
+└── README.md
+```
+
 ---
 
 ## Tools & Technologies
