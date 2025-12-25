@@ -95,7 +95,7 @@ The database was designed as a **fully normalized relational schema**, reflectin
 - One campaign → multiple contents, advertisements, and payments  
 
 ![ER Diagram](database/er_diagram/er_diagram.png)
-Functional ER diagram (Crow’s Foot)
+Functional ER diagram
 
 ---
 
