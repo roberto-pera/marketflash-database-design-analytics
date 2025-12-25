@@ -94,8 +94,8 @@ The database was designed as a **fully normalized relational schema**, reflectin
 - One campaign → multiple platforms and influencers  
 - One campaign → multiple contents, advertisements, and payments  
 
-📌 *Visual placeholder:*  
-**er_diagram.png** – Functional ER diagram (Crow’s Foot)
+![ER Diagram](database/er_diagram/er_diagram.png)
+Functional ER diagram (Crow’s Foot)
 
 ---
 
@@ -114,8 +114,8 @@ The SQL layer includes:
 - integrity and validation queries  
 - KPI-oriented analytical queries (e.g. CPC, cost per conversion)
 
-📌 *Visual placeholder:*  
-**database_setup.png** – Database schema and tables (Beekeeper Studio)
+![SQL Database Setup](database_setup.png)
+Database schema and sample table snippet (Beekeeper Studio)
 
 ---
 
@@ -148,11 +148,10 @@ It enables:
 - Monthly trend monitoring  
 - Identification of under- and over-performing executives  
 
-📊 **Live Dashboard (Tableau Public):**  
+**Dashboard (Tableau Public):**  
 [Executive Performance Analysis – MarketFlash](https://public.tableau.com/app/profile/roberto.pera/viz/Project_MarketFlash_ExecutivePerformanceAnalysis/ExecutivesPerformance)
 
-📌 *Visual placeholder:*  
-**dashboard_overview.png** – Executive overview dashboard
+![Dashboard Screenshot](dashboard/dashboard_overview.png) 
 
 ---
 
