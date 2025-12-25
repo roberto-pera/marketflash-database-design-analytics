@@ -114,7 +114,7 @@ The SQL layer includes:
 - integrity and validation queries  
 - KPI-oriented analytical queries (e.g. CPC, cost per conversion)
 
-![SQL Database Setup](database_setup.png)
+![SQL Database Setup](database/beekeeper_setup/database_setup.png)
 Database schema and sample table snippet (Beekeeper Studio)
 
 ---
