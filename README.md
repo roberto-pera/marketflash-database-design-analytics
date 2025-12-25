@@ -152,7 +152,7 @@ It enables:
 [Executive Performance Analysis – MarketFlash](https://public.tableau.com/app/profile/roberto.pera/viz/Project_MarketFlash_ExecutivePerformanceAnalysis/ExecutivesPerformance)
 
 📌 *Visual placeholder:*  
-**dashboard_screenshot.png** – Executive overview dashboard
+**dashboard_overview.png** – Executive overview dashboard
 
 ---
 
