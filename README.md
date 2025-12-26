@@ -30,7 +30,7 @@ In 2023, MarketFlash managed:
 - **78 clients**
 - Multiple digital platforms (e.g. YouTube, Instagram, Facebook, TikTok, Email)
 
-The original business data was delivered as a **single worksheet**, containing campaign details, client information, costs, and performance metrics.
+The original business data was delivered as a **[single worksheet](data_raw/marketflash_marketing_data_2023.xlsx)**, containing campaign details, client information, costs, and performance metrics.
 
 This setup was no longer sufficient for a growing business that needed:
 - scalable data structures
@@ -126,9 +126,9 @@ table relationships, joins, and calculation logic.
 
 The included queries focus on:
 
-- **Average Cost per Click (CPC)**  
-- **Average Cost per Conversion**  
-- Campaign-to-client relationship checks (`campaign_client_check.sql`)
+- [Average Cost per Click (CPC)](database/queries/avg_cost_per_click.sql)
+- [Average Cost per Conversion](database/queries/avg_cost_per_conversion.sql)
+- [Campaign-to-client relationship checks](database/queries/campaign_client_check.sql)
 
 These queries primarily serve as **functional and integrity tests**, ensuring that the data model
 supports correct joins and basic KPI calculations rather than full analytical exploration.
